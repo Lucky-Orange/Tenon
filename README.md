@@ -3,12 +3,24 @@ Tenon
 
 Tenon is a Swift binding of Cordova 5, with some cordova plugins and tenon plugins.
 
-##Requirements
+## Engine automatically switching
 
-* iOS 8+
+Tenon can change web engine from UIWebView under iOS6 - iOS7 to WKWebView when iOS8 or newer automatically.
+
+## Examples
+
+The example project is in TenonExample directory.
+
+## Requirements
+
+* iOS 6+
 * Xcode 7+ (Swift 2+)
 
-##LICENSE
+## Notice
+
+This is a completed project but will not get official support ever because of the adjusted of the company's business.
+
+## LICENSE
 Tenon is open-sourced software licensed under the MIT license.
 
 Copyright (c) 2016 Leqicheng Inc. 乐其橙科技（北京）有限公司
