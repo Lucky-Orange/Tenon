@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E38742E1B78788400A353A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38742D1B78788400A353A3 /* AppDelegate.swift */; };
+		8E3874301B78788400A353A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38742F1B78788400A353A3 /* ViewController.swift */; };
+		8E3874331B78788400A353A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3874311B78788400A353A3 /* Main.storyboard */; };
+		8E3874351B78788400A353A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3874341B78788400A353A3 /* Assets.xcassets */; };
+		8E3874381B78788400A353A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3874361B78788400A353A3 /* LaunchScreen.storyboard */; };
+		8E3874431B78788400A353A3 /* TenonExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3874421B78788400A353A3 /* TenonExampleTests.swift */; };
+		8E38745F1B787A1300A353A3 /* Tenon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E38745C1B787A0A00A353A3 /* Tenon.framework */; };
+		8E3874601B787A1300A353A3 /* Tenon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E38745C1B787A0A00A353A3 /* Tenon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E38743F1B78788400A353A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3874221B78788400A353A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3874291B78788400A353A3;
+			remoteInfo = TenonExample;
+		};
+		8E38745B1B787A0A00A353A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3874561B787A0A00A353A3 /* Tenon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E0CBA381B74664800791655;
+			remoteInfo = Tenon;
+		};
+		8E38745D1B787A0A00A353A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3874561B787A0A00A353A3 /* Tenon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E0CBA421B74664800791655;
+			remoteInfo = TenonTests;
+		};
+		8E3874611B787A1300A353A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3874561B787A0A00A353A3 /* Tenon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0CBA371B74664800791655;
+			remoteInfo = Tenon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E3874631B787A1300A353A3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8E3874601B787A1300A353A3 /* Tenon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E38742A1B78788400A353A3 /* TenonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E38742D1B78788400A353A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E38742F1B78788400A353A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E3874321B78788400A353A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E3874341B78788400A353A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3874371B78788400A353A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E3874391B78788400A353A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E38743E1B78788400A353A3 /* TenonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3874421B78788400A353A3 /* TenonExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenonExampleTests.swift; sourceTree = "<group>"; };
+		8E3874441B78788400A353A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3874561B787A0A00A353A3 /* Tenon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tenon.xcodeproj; path = ../Tenon.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E3874271B78788400A353A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E38745F1B787A1300A353A3 /* Tenon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E38743B1B78788400A353A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3874211B78788400A353A3 = {
+			isa = PBXGroup;
+			children = (
+				8E3874561B787A0A00A353A3 /* Tenon.xcodeproj */,
+				8E38742C1B78788400A353A3 /* TenonExample */,
+				8E3874411B78788400A353A3 /* TenonExampleTests */,
+				8E38742B1B78788400A353A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E38742B1B78788400A353A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E38742A1B78788400A353A3 /* TenonExample.app */,
+				8E38743E1B78788400A353A3 /* TenonExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E38742C1B78788400A353A3 /* TenonExample */ = {
+			isa = PBXGroup;
+			children = (
+				8E38742D1B78788400A353A3 /* AppDelegate.swift */,
+				8E38742F1B78788400A353A3 /* ViewController.swift */,
+				8E3874311B78788400A353A3 /* Main.storyboard */,
+				8E3874341B78788400A353A3 /* Assets.xcassets */,
+				8E3874361B78788400A353A3 /* LaunchScreen.storyboard */,
+				8E3874391B78788400A353A3 /* Info.plist */,
+			);
+			path = TenonExample;
+			sourceTree = "<group>";
+		};
+		8E3874411B78788400A353A3 /* TenonExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3874421B78788400A353A3 /* TenonExampleTests.swift */,
+				8E3874441B78788400A353A3 /* Info.plist */,
+			);
+			path = TenonExampleTests;
+			sourceTree = "<group>";
+		};
+		8E3874571B787A0A00A353A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E38745C1B787A0A00A353A3 /* Tenon.framework */,
+				8E38745E1B787A0A00A353A3 /* TenonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3874291B78788400A353A3 /* TenonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3874471B78788400A353A3 /* Build configuration list for PBXNativeTarget "TenonExample" */;
+			buildPhases = (
+				8E3874261B78788400A353A3 /* Sources */,
+				8E3874271B78788400A353A3 /* Frameworks */,
+				8E3874281B78788400A353A3 /* Resources */,
+				8E3874631B787A1300A353A3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3874621B787A1300A353A3 /* PBXTargetDependency */,
+			);
+			name = TenonExample;
+			productName = TenonExample;
+			productReference = 8E38742A1B78788400A353A3 /* TenonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E38743D1B78788400A353A3 /* TenonExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E38744A1B78788400A353A3 /* Build configuration list for PBXNativeTarget "TenonExampleTests" */;
+			buildPhases = (
+				8E38743A1B78788400A353A3 /* Sources */,
+				8E38743B1B78788400A353A3 /* Frameworks */,
+				8E38743C1B78788400A353A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3874401B78788400A353A3 /* PBXTargetDependency */,
+			);
+			name = TenonExampleTests;
+			productName = TenonExampleTests;
+			productReference = 8E38743E1B78788400A353A3 /* TenonExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E3874221B78788400A353A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "乐其橙";
+				TargetAttributes = {
+					8E3874291B78788400A353A3 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = TVXZ37DCUJ;
+					};
+					8E38743D1B78788400A353A3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8E3874291B78788400A353A3;
+					};
+				};
+			};
+			buildConfigurationList = 8E3874251B78788400A353A3 /* Build configuration list for PBXProject "TenonExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E3874211B78788400A353A3;
+			productRefGroup = 8E38742B1B78788400A353A3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8E3874571B787A0A00A353A3 /* Products */;
+					ProjectRef = 8E3874561B787A0A00A353A3 /* Tenon.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8E3874291B78788400A353A3 /* TenonExample */,
+				8E38743D1B78788400A353A3 /* TenonExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8E38745C1B787A0A00A353A3 /* Tenon.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Tenon.framework;
+			remoteRef = 8E38745B1B787A0A00A353A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8E38745E1B787A0A00A353A3 /* TenonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TenonTests.xctest;
+			remoteRef = 8E38745D1B787A0A00A353A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3874281B78788400A353A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3874381B78788400A353A3 /* LaunchScreen.storyboard in Resources */,
+				8E3874351B78788400A353A3 /* Assets.xcassets in Resources */,
+				8E3874331B78788400A353A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E38743C1B78788400A353A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3874261B78788400A353A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3874301B78788400A353A3 /* ViewController.swift in Sources */,
+				8E38742E1B78788400A353A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E38743A1B78788400A353A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3874431B78788400A353A3 /* TenonExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E3874401B78788400A353A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3874291B78788400A353A3 /* TenonExample */;
+			targetProxy = 8E38743F1B78788400A353A3 /* PBXContainerItemProxy */;
+		};
+		8E3874621B787A1300A353A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Tenon;
+			targetProxy = 8E3874611B787A1300A353A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E3874311B78788400A353A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3874321B78788400A353A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E3874361B78788400A353A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3874371B78788400A353A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E3874451B78788400A353A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E3874461B78788400A353A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E3874481B78788400A353A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TenonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leqicheng.TenonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E3874491B78788400A353A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TenonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leqicheng.TenonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E38744B1B78788400A353A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TenonExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leqicheng.TenonExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TenonExample.app/TenonExample";
+			};
+			name = Debug;
+		};
+		8E38744C1B78788400A353A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TenonExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leqicheng.TenonExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TenonExample.app/TenonExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E3874251B78788400A353A3 /* Build configuration list for PBXProject "TenonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3874451B78788400A353A3 /* Debug */,
+				8E3874461B78788400A353A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3874471B78788400A353A3 /* Build configuration list for PBXNativeTarget "TenonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3874481B78788400A353A3 /* Debug */,
+				8E3874491B78788400A353A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E38744A1B78788400A353A3 /* Build configuration list for PBXNativeTarget "TenonExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E38744B1B78788400A353A3 /* Debug */,
+				8E38744C1B78788400A353A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E3874221B78788400A353A3 /* Project object */;
+}

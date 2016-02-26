@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "070831FA7BF0F496A9766B9981E53439BBF25885",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F3B52C494A595F6D2A43C7CA1F4301419A463ABD" : 0,
+    "070831FA7BF0F496A9766B9981E53439BBF25885" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8D836B9F-4782-403B-A91A-C7FDAB96718D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F3B52C494A595F6D2A43C7CA1F4301419A463ABD" : "",
+    "070831FA7BF0F496A9766B9981E53439BBF25885" : "Tenon\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tenon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tenon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:leqicheng\/Tenon-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "070831FA7BF0F496A9766B9981E53439BBF25885"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:leqicheng\/DianKai-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F3B52C494A595F6D2A43C7CA1F4301419A463ABD"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "070831FA7BF0F496A9766B9981E53439BBF25885",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F3B52C494A595F6D2A43C7CA1F4301419A463ABD" : 0,
+    "070831FA7BF0F496A9766B9981E53439BBF25885" : 0,
+    "C11A99CED67E3C7772539BCD7615F4015EFE00E7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4C20E2D4-9BC8-47FE-AF23-D1A6FEC02851",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F3B52C494A595F6D2A43C7CA1F4301419A463ABD" : "",
+    "070831FA7BF0F496A9766B9981E53439BBF25885" : "Tenon\/",
+    "C11A99CED67E3C7772539BCD7615F4015EFE00E7" : "Tenon\/Pitaya\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TenonExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TenonExample\/TenonExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:leqicheng\/Tenon-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "070831FA7BF0F496A9766B9981E53439BBF25885"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:johnlui\/Pitaya.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C11A99CED67E3C7772539BCD7615F4015EFE00E7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:leqicheng\/DianKai-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F3B52C494A595F6D2A43C7CA1F4301419A463ABD"
+    }
+  ]
+}
