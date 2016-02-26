@@ -13,7 +13,7 @@ The example project is in TenonExample directory.
 
 ## Requirements
 
-* iOS 6+
+* iOS 7+
 * Xcode 7+ (Swift 2+)
 
 ## Notice
