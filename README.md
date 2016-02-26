@@ -5,7 +5,7 @@ Tenon is a Swift binding of Cordova 5, with some cordova plugins and tenon plugi
 
 ## Engine automatically switching
 
-Tenon can change web engine from UIWebView under iOS6 - iOS7 to WKWebView when iOS8 or newer automatically.
+Tenon can change web engine from UIWebView with iOS7 to WKWebView when iOS8 or newer automatically.
 
 ## Examples
 
